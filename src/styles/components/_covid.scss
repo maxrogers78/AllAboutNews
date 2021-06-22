@@ -1,0 +1,19 @@
+.covid {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid $clr-gray;
+  padding: 1em 0;
+  transition: color 100ms ease;
+
+  &:hover {
+    color: $clr-secondary-normal;
+  }
+
+  &__title {
+    font-weight: normal;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
